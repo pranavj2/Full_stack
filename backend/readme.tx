@@ -1,0 +1,7 @@
+
+express ->	Creates our HTTP API server
+pg ->	Connects Node.js to PostgreSQL
+dotenv ->	Loads local environment variables from a .env file
+typescript ->	Type-checks and compiles TypeScript
+tsx ->	Runs TypeScript during development
+@types/* ->	Provides TypeScript definitions
