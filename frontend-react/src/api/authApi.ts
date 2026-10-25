@@ -30,6 +30,6 @@ export async function loginUser(
     "/auth/login",
     credentials,
   );
-
+  console.log("Login response:", response.data); // Log the response data for debugging
   return response.data;
 }

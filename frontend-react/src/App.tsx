@@ -3,6 +3,9 @@ import type { ChangeEvent, FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "./context/AuthContext";
+// @ts-ignore CSS files are loaded by the bundler and have no TypeScript declarations.
+import "./App.css";
+
 import {
   getExpenses,
   createExpense,
@@ -20,7 +23,7 @@ const initialForm: ExpenseFormState = {
   amount: "",
   category: "Food",
 };
-import "./App.css";
+
 function App() {
   const { isAuthenticated, logout } = useAuth();
   const navigate = useNavigate();

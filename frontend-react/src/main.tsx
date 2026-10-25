@@ -8,6 +8,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
+// @ts-ignore CSS files are loaded by the bundler and have no TypeScript declarations.
 
 import "./index.css";
 
